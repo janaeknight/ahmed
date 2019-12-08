@@ -1,0 +1,35 @@
+:root {
+    --main-green: #29C778;
+    --sub-green: #2CB871;
+}
+body {
+    width: 100vw; height: auto;
+    display: flex; flex-direction: column;
+    background-color: snow; margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+} a { text-decoration: none;  color: inherit;}
+
+header {
+    width: inherit; min-height: 55vh;
+    background-color: green; color: snow;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0; text-align: center;
+}
+
+nav {
+    width: 65%; height: 12vw;
+    background-color: var(--main-green);
+    z-index: 1; border-right: 7px solid var(--sub-green);
+}
+nav a {
+    padding: 5px;
+}
+
+.hl a {
+    background-color: var(--main-green);
+    padding: 3px 10px;
+    border: 1.5px solid var(--sub-green);
+}
