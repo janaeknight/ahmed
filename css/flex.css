@@ -29,7 +29,7 @@ body a button input form {
 
 /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
 
-.row { display: flex; flex-direction: row; }
+.row { display: flex; flex-direction: row; width: inherit;}
 .column { display: flex; flex-direction: column; }
 
 /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
