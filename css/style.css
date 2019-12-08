@@ -1,6 +1,7 @@
 :root {
-    --main-green: #29C778;
+    --main-green: #2CC779;
     --sub-green: #2CB871;
+    --sub-green2: #2BB971;
 }
 body {
     width: 100vw; height: auto;
@@ -33,8 +34,8 @@ nav a {
     padding: 1.2% 2%; border: 3px solid var(--sub-green);
 }
 
-#about, #ourwork, #contact {
-    width: inherit;
+#about, #ourwork, #contact, #bl{
+    width: inherit; padding: 2% 0;
 }
 #about p {
     margin: 0 20%;
@@ -44,5 +45,25 @@ nav a {
     border-radius: 100%;
     border: 5px inset silver;
 }
+#bl, #fl {
+    padding: 28px 0; font-size: 18px;
+    background-color: var(--main-green);
+}
+#bl a, #fl a {
+    color: snow; padding: 10px 14px; margin: 0 5px;
+    background-color: var(--sub-green2);
+}
+input {
+    height: 50px; width: 60%;
+    border: none; border-radius: 2%;
+    margin: 10px 0; margin-left: 5%;
+    background-color: #E9E9E9; padding: 0 10px;
+}
+footer {
+    background-color: var(--sub-green2);
+    padding-bottom: 55px; color: snow;
+}
+.fl-b a { background-color: lightseagreen !important; }
+.fl-r a { background-color: lightcoral !important; }
 /*@media screen and (min-width: 550px) {
 }*/
