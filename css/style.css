@@ -67,3 +67,19 @@ footer {
 .fl-r a { background-color: lightcoral !important; }
 /*@media screen and (min-width: 550px) {
 }*/
+.t-g { color: var(--sub-green2); }
+.wb {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    width: 88%; min-height: 400px;
+    background-color: grey;
+    margin: 0 auto;
+}
+.wb img {
+    width: 99%; height: 99%;
+}
+.proj {
+    width: 33%; height: 40%;
+    margin: 0 auto; padding: .10% .1%;
+}
+.pr { display: none;}
+.proj img:hover 
