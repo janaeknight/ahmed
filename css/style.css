@@ -68,6 +68,8 @@ footer {
 /*@media screen and (min-width: 550px) {
 }*/
 .t-g { color: var(--sub-green2); }
+.ts-2 { font-size: 105%; padding-bottom: 15px; }
+.ts-3 { font-size: 76%; }
 .wb {
     display: flex; flex-direction: row; flex-wrap: wrap;
     width: 88%; min-height: 400px;
@@ -81,5 +83,16 @@ footer {
     width: 33%; height: 40%;
     margin: 0 auto; padding: .10% .1%;
 }
-.pr { display: none;}
-.proj img:hover 
+.proj .pr {
+    /*visibility: hidden;*/
+    width: 29.45%; height: 13%; position: absolute;
+    background-color: var(--sub-green2); color: snow;
+    margin-top: -18%;
+    z-index: 1; 
+}
+.pr span { padding-left: 3%; }
+.pr a { 
+    padding: 5px; margin: 0 2px;
+    background-color: snow; color: var(--sub-green2);
+ }
+.proj:hover .pr { visibility: visible; }
