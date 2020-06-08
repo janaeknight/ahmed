@@ -6,13 +6,13 @@
 body {
     width: 100vw; height: auto;
     display: flex; flex-direction: column;
-    background-color: snow; margin: 0 auto;
+    background-color: whitesmoke; margin: 0 auto;
     font-family: 'Lato', sans-serif; overflow-x: hidden;
 } a { text-decoration: none;  color: inherit;}
 
 header {
     width: inherit; min-height: 55vh;
-    background-color: green; color: snow;
+    background-color: green; color: whitesmoke;
     background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ nav a {
     background-color: var(--main-green);
 }
 #bl a, #fl a {
-    color: snow; padding: 10px 14px; margin: 0 5px;
+    color: whitesmoke; padding: 10px 14px; margin: 0 5px;
     background-color: var(--sub-green2);
 }
 input {
@@ -61,7 +61,7 @@ input {
 }
 footer {
     background-color: var(--sub-green2);
-    padding-bottom: 55px; color: snow;
+    padding-bottom: 55px; color: whitesmoke;
 }
 .fl-b a { background-color: lightseagreen !important; }
 .fl-r a { background-color: lightcoral !important; }
@@ -86,13 +86,13 @@ footer {
 .proj .pr {
     /*visibility: hidden;*/
     width: 29.45%; height: 13%; position: absolute;
-    background-color: var(--sub-green2); color: snow;
+    background-color: var(--sub-green2); color: whitesmoke;
     margin-top: -18%;
     z-index: 1; 
 }
 .pr span { padding-left: 3%; }
 .pr a { 
     padding: 5px; margin: 0 2px; 
-    background-color: snow; color: var(--sub-green2);
+    background-color: whitesmoke; color: var(--sub-green2);
  }
 .proj:hover .pr { visibility: visible; }
